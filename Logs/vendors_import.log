@@ -1,0 +1,48 @@
+
+2025-07-24 20:51:26,475- INFO- loaded 'begin_inventory' into MySQL rows: 206529
+2025-07-24 20:51:40,748- INFO- loaded 'end_inventory' into MySQL rows: 224489
+2025-07-24 20:51:41,303- INFO- loaded 'purchase_price' into MySQL rows: 5999
+2025-07-24 20:53:11,889- INFO- loaded 'sale' into MySQL rows: 1048575
+2025-07-24 20:53:13,153- INFO- loaded 'vendor_invoice' into MySQL rows: 5543
+2025-07-24 20:54:33,677- INFO- loaded 'begin_inventory' into MySQL rows: 206529
+2025-07-24 20:54:46,371- INFO- loaded 'end_inventory' into MySQL rows: 224489
+2025-07-24 20:54:47,202- INFO- loaded 'purchase_price' into MySQL rows: 5999
+2025-07-24 20:56:14,966- INFO- loaded 'sale' into MySQL rows: 1048575
+2025-07-24 20:56:15,840- INFO- loaded 'vendor_invoice' into MySQL rows: 5543
+2025-07-24 22:30:45,711- INFO- loaded 'begin_inventory' into MySQL rows: 206529
+2025-07-24 22:30:53,715- INFO- loaded 'end_inventory' into MySQL rows: 224489
+2025-07-24 22:30:54,187- INFO- loaded 'purchase_price' into MySQL rows: 5999
+2025-07-24 22:31:51,082- INFO- loaded 'sale' into MySQL rows: 1048575
+2025-07-24 22:32:33,208- INFO- loaded 'begin_inventory' into MySQL rows: 206529
+2025-07-24 22:32:41,117- INFO- loaded 'end_inventory' into MySQL rows: 224489
+2025-07-24 22:32:41,526- INFO- loaded 'purchase_price' into MySQL rows: 5999
+2025-07-24 22:33:38,640- INFO- loaded 'sale' into MySQL rows: 1048575
+2025-07-24 22:33:39,198- INFO- loaded 'vendor_invoice' into MySQL rows: 5543
+2025-07-24 22:38:44,617- INFO- loaded 'begin_inventory' into MySQL rows: 206529
+2025-07-24 22:38:53,022- INFO- loaded 'end_inventory' into MySQL rows: 224489
+2025-07-24 22:38:53,454- INFO- loaded 'purchase_price' into MySQL rows: 5999
+2025-07-24 22:39:48,950- INFO- loaded 'sale' into MySQL rows: 1048575
+2025-07-24 22:39:49,482- INFO- loaded 'vendor_invoice' into MySQL rows: 5543
+2025-07-24 22:40:16,237- INFO- loaded 'begin_inventory' into MySQL rows: 206529
+2025-07-24 22:40:24,411- INFO- loaded 'end_inventory' into MySQL rows: 224489
+2025-07-24 22:40:24,857- INFO- loaded 'purchase_price' into MySQL rows: 5999
+2025-07-24 22:41:21,515- INFO- loaded 'sale' into MySQL rows: 1048575
+2025-07-24 22:41:22,142- INFO- loaded 'vendor_invoice' into MySQL rows: 5543
+2025-07-24 22:42:19,498- INFO- loaded 'begin_inventory' into MySQL rows: 206529
+2025-07-24 22:42:27,740- INFO- loaded 'end_inventory' into MySQL rows: 224489
+2025-07-24 22:42:28,180- INFO- loaded 'purchase_price' into MySQL rows: 5999
+2025-07-24 22:43:22,206- INFO- loaded 'sale' into MySQL rows: 1048575
+2025-07-24 22:43:22,719- INFO- loaded 'vendor_invoice' into MySQL rows: 5543
+2025-07-24 22:44:24,328- INFO- loaded 'purchases' into MySQL rows: 1048575
+2025-07-24 22:56:22,992- INFO- [DEBUG] Table: begin_inventory, Rows: 206529, Columns: ['InventoryId', 'Store', 'City', 'Brand', 'Description', 'Size', 'onHand', 'Price', 'startDate']
+2025-07-24 22:56:30,256- INFO-  Loaded 'begin_inventory' into MySQL, Rows: 206529
+2025-07-24 22:56:30,489- INFO- [DEBUG] Table: end_inventory, Rows: 224489, Columns: ['InventoryId', 'Store', 'City', 'Brand', 'Description', 'Size', 'onHand', 'Price', 'endDate']
+2025-07-24 22:56:38,493- INFO-  Loaded 'end_inventory' into MySQL, Rows: 224489
+2025-07-24 22:56:38,512- INFO- [DEBUG] Table: purchase_price, Rows: 5999, Columns: ['Brand', 'Description', 'Price', 'Size', 'Volume', 'Classification', 'PurchasePrice', 'VendorNumber', 'VendorName']
+2025-07-24 22:56:38,889- INFO-  Loaded 'purchase_price' into MySQL, Rows: 5999
+2025-07-24 22:56:39,890- INFO- [DEBUG] Table: sale, Rows: 1048575, Columns: ['InventoryId', 'Store', 'Brand', 'Description', 'Size', 'SalesQuantity', 'SalesDollars', 'SalesPrice', 'SalesDate', 'Volume', 'Classification', 'ExciseTax', 'VendorNo', 'VendorName']
+2025-07-24 22:57:35,407- INFO-  Loaded 'sale' into MySQL, Rows: 1048575
+2025-07-24 22:57:35,515- INFO- [DEBUG] Table: vendor_invoice, Rows: 5543, Columns: ['VendorNumber', 'VendorName', 'InvoiceDate', 'PONumber', 'PODate', 'PayDate', 'Quantity', 'Dollars', 'Freight', 'Approval']
+2025-07-24 22:57:35,986- INFO-  Loaded 'vendor_invoice' into MySQL, Rows: 5543
+2025-07-24 22:57:37,146- INFO- [DEBUG] Table: purchases, Rows: 1048575, Columns: ['InventoryId', 'Store', 'Brand', 'Description', 'Size', 'VendorNumber', 'VendorName', 'PONumber', 'PODate', 'ReceivingDate', 'InvoiceDate', 'PayDate', 'PurchasePrice', 'Quantity', 'Dollars', 'Classification']
+2025-07-24 22:58:38,214- INFO-  Loaded 'purchases' into MySQL, Rows: 1048575
